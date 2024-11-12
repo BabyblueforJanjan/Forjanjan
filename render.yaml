@@ -1,6 +1,8 @@
-staticSites:
+services : 
   - name: my-static-website
-    buildCommand: echo "No build needed"  
-    outputDir: . 
+    type: web
+    buildCommand: "echo 'No build needed'"
+    outputDir: .  
     domains:
-      - https://github.com/BabyblueforJanjan/Forjanjan  
+      - https://github.com/BabyblueforJanjan/Forjanjan
+
