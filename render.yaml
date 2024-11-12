@@ -2,7 +2,7 @@ services :
   - name: my-static-website
     type: web
     buildCommand: "echo 'No build needed'"
-    outputDir: public  
+    outputDir: https://github.com/BabyblueforJanjan/Forjanjan  
     domains:
       - https://github.com/BabyblueforJanjan/Forjanjan
 
