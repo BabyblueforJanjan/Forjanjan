@@ -1,0 +1,6 @@
+staticSites:
+  - name: my-static-website
+    buildCommand: echo "No build needed"  # เพราะเราไม่ใช้ build tools
+    outputDir: .  (ที่มีไฟล์ HTML, CSS, JS)
+    domains:
+      - https://github.com/BabyblueforJanjan/Forjanjan  # หรือโดเมนที่คุณต้องการ (ถ้ามี)
